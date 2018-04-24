@@ -2,10 +2,12 @@ body{
   background-color: #f6f9f8;
 }
 
-.container{
+.bodySec{
   background-color: #e3eaa7;
+  padding: 15px;
 }
 
-#topHead{
-  padding-top: 100px;
+#topFont{
+  padding-top: 25px;
+
 }
