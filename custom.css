@@ -19,3 +19,9 @@ body{
 .cardDeck{
   padding-top: 40px;
 }
+
+.cardBox{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
