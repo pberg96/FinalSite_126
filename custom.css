@@ -72,23 +72,23 @@ body {
 }
 
 /* ----Styling for hikes page---- */
-div#imgCont{
-  overflow: hidden;
-  border-style: solid;
-  border-width: 10px;
-  border-color: black;
-  position: fixed;
-  width: 100%;
-  margin-right: 200px;
-}
-.hikeImg{
-  padding-right: 30px;
-  height:100vh;
-  width:auto;
-  position: fixed;
+
+.scrollDiv{
+  position:relative;
 }
 
-.scroll{
+.backImg1, .backImg2 {
   position: relative;
-  margin-top: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.backImg1 {
+  background-image: url("images/hanging.jpg");
+  min-height: 95vh;
+}
+
+.backImg2 {
+  background-image: url("images/Grayson3.jpg");
+  min-height: 95vh;
 }
