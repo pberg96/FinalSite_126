@@ -77,7 +77,7 @@ body {
   position:relative;
 }
 
-.backImg1, .backImg2 {
+.backImg1, .backImg2,.backImg3,.backImg4 {
   position: relative;
   background-attachment: fixed;
   background-size: cover;
@@ -90,5 +90,15 @@ body {
 
 .backImg2 {
   background-image: url("images/grayson.jpg");
+  min-height: 75vh;
+}
+
+.backImg3 {
+  background-image: url("images/lGlass.jpg");
+  min-height: 75vh;
+}
+
+.backImg4 {
+  background-image: url("images/linGorge.jpg");
   min-height: 75vh;
 }
