@@ -82,37 +82,44 @@ body {
   position:relative;
 }
 
-.backImg1, .backImg2,.backImg3,.backImg4 {
-  position: relative;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 .backImg1 {
-  background-image: url("images/hanging.jpg");
-  min-height: 78vh;
+  background-image: url("images/scroll_hanging.jpg");
+  min-height: 50vh;
 }
 
 .backImg2 {
-  background-image: url("images/grayson.jpg");
-  min-height: 78vh;
+  background-image: url("images/scroll_grayson.jpg");
+  min-height: 50vh;
 }
 
 .backImg3 {
-  background-image: url("images/lGlass.jpg");
-  min-height: 78vh;
+  background-image: url("images/scroll_lGlass.jpg");
+  min-height: 50vh;
 }
 
 .backImg4 {
-  background-image: url("images/linGorge.jpg");
-  min-height: 78vh;
+  background-image: url("images/scroll_linGorge.jpg");
+  min-height: 50vh;
 }
 
-@media only screen and (max-device-width: 600px) {
-  #testy{
-    background-color: red;
+.backImg1, .backImg2, .backImg3, .backImg4 {
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* DESKTOP ONLY */
+  .container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
   }
-    .backImg1, .backImg2, .backImg3, .backImg4 {
-        background-attachment: scroll;
-    }
+  .backImg1, .backImg2,.backImg3,.backImg4 {
+    background-attachment: fixed;
+    min-height: 78vh;
+  }
 }
