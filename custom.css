@@ -90,22 +90,22 @@ body {
 
 .backImg1 {
   background-image: url("images/hanging.jpg");
-  min-height: 75vh;
+  min-height: 78vh;
 }
 
 .backImg2 {
   background-image: url("images/grayson.jpg");
-  min-height: 75vh;
+  min-height: 78vh;
 }
 
 .backImg3 {
   background-image: url("images/lGlass.jpg");
-  min-height: 75vh;
+  min-height: 78vh;
 }
 
 .backImg4 {
   background-image: url("images/linGorge.jpg");
-  min-height: 75vh;
+  min-height: 78vh;
 }
 
 @media only screen and (max-device-width: 1024px) {
