@@ -109,6 +109,9 @@ body {
 }
 
 @media only screen and (max-device-width: 1024px) {
+  .container-fluid{
+    padding:0px;
+  }
     .backImg1, .backImg2, .backImg3, .backImg4 {
         background-attachment: scroll;
     }
